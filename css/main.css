@@ -1,0 +1,284 @@
+html {
+    font-size: 100%; /* keep */
+    box-sizing: border-box; /* keep */
+}
+* {
+    box-sizing: inherit; /* keep */
+}
+body {
+    font-family: 'Space Mono', monospace;
+    color: #141414; /* keep */
+    margin: 0; /* keep */
+}
+h1, h5, h3, h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2rem;
+}
+
+
+
+.carousel-caption {
+  padding: 0.2rem;
+  background: #fff;
+  border-radius: 10px;
+  font-size: 0.75em;
+  color: #242424;
+  border: 3px #242424 solid;
+}
+
+#headertitle {
+  font-size: 5rem;
+  line-height: 0.9em;
+
+}
+
+#headertagline {
+  font-size:1rem;
+
+}
+
+.navbar-nav {
+  font-size:1rem;
+  color: #000;
+}
+
+#source1 {
+  margin: 30px;
+}
+
+#contrastAccessibility {
+  border: 3px #242424 solid;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#accessiblity {
+  margin-top: 20px;
+}
+
+.colorGroups {
+  width: 300px;
+  height: 250px;
+  max-width: 100%;
+  background: #fff;
+  border: 3px #242424 solid;
+  margin-top: 40px;
+  color: #fff;
+  border-radius: 10px;
+
+
+  /* setup for bg images */
+  background-image: none;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+/* background images for each ID */
+
+#Primary {
+  background-image: url('../images/primary.jpg');
+}
+
+#Secondary {
+  background-image: url('../images/secondary.jpg');
+}
+
+#Tertiary {
+  background-image: url('../images/tertiary.jpg');
+}
+
+#Monochromatic {
+  background-image: url('../images/monochromatic.jpg');
+}
+
+#Complimentary {
+  background-image: url('../images/complimentary.jpg');
+}
+
+#splitComplimentary {
+  background-image: url('../images/split.jpg');
+}
+
+#Analogous {
+  background-image: url('../images/analogous.jpg');
+
+}
+
+#Triadic {
+  background-image: url('../images/triadic.jpg');
+}
+
+#Tetradic {
+  background-image: url('../images/tetradic.jpg');
+}
+
+
+
+
+
+/* div containing only text */
+.theText {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  justify-content: center;
+}
+
+.disappear {
+  max-height: 0 !important;
+  transition: max-height 0.15s ease-out;
+  overflow: hidden;
+}
+
+.appear {
+  max-height: 100%;
+  transition: max-height 0.4s ease-in;
+  overflow: scroll;
+}
+
+/* set a different bg color for each text div */
+#primaryStuff {
+  background: #242424;
+  border-radius: 10px;
+
+}
+
+#secondaryStuff {
+  background: #242424;
+  border-radius: 10px;
+}
+
+#tertiaryStuff {
+  background: #242424;
+  border-radius: 10px;
+}
+
+#monochromaticStuff {
+  background: #242424;
+  border-radius: 10px;
+}
+
+#complimentaryStuff {
+  background: #242424;
+  border-radius: 10px;
+}
+
+#splitStuff {
+  background: #242424;
+  border-radius: 10px;
+}
+
+#analogousStuff {
+  background: #242424;
+  border-radius: 10px;
+}
+
+#triadicStuff {
+  background: #242424;
+  border-radius: 10px;
+}
+
+#tetradicStuff {
+  background: #242424;
+  border-radius: 10px;
+
+}
+
+
+
+
+
+
+
+
+#accessiblityChart {
+  height: auto;
+  max-width: 100%
+}
+
+p {
+  line-height: 1.5;
+
+}
+
+/* link styles */
+a {
+  color: #0287b3;
+}
+
+a:hover {
+  color: #3ecbfa;
+}
+
+/* media queries below - CHANGE if needed so your chart works well on phones */
+@media screen and (max-width: 700px) {
+  body {
+    margin: 1rem;
+  }
+
+  #container {
+    width: 100%;
+
+
+  }
+}
+
+
+#accessibleImage {
+  padding: 1rem;
+}
+
+
+
+/* psychology */
+
+.textmeaning {
+  border: 3px #242424 solid;
+  border-radius: 10px;
+  padding:1rem;
+
+}
+
+
+#redSquare {
+  width: 150px;
+  height: 150px;
+  background: #f01c05;
+}
+
+#orangeSquare {
+  width: 150px;
+  height: 150px;
+  background: #fc9403;
+}
+
+#yellowSquare {
+  width: 150px;
+  height: 150px;
+  background: #ffde05;
+}
+
+#greenSquare {
+  width: 150px;
+  height: 150px;
+  background: #53d104;
+}
+
+#blueSquare {
+  width: 150px;
+  height: 150px;
+  background: #006eff;
+}
+
+#purpleSquare {
+  width: 150px;
+  height: 150px;
+  background: #7000e8;
+}
+
+#pinkSquare {
+  width: 150px;
+  height: 150px;
+  background: #ff91fd;
+}
